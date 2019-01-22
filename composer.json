@@ -1,5 +1,5 @@
 {
-    "name": "theoryOfSoul/weather",
+    "name": "theory-of-soul/weather",
     "version": "0.1.0-dev",
     "description": "A function that will return the current weather in Kiev",
     "require": {
