@@ -11,7 +11,7 @@ $result = $api->get("forecast", [
 ]);
 
 if($result->info->http_code == 200) {
-    $newFile = fopen(__DIR__ . "/weather.txt", "w");
+    $newFile = fopen( "weather.txt", "w");
     fwrite($newFile, json_encode($result->decode_response()->list[1]));
     fclose($newFile);
 }
